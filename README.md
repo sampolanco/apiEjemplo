@@ -1,6 +1,6 @@
 # Project Title
 
-Ejeplo de Servicio rest basico
+Basic rest example in Spring
 
 ## Getting Started
 
@@ -9,15 +9,9 @@ Ejeplo de Servicio rest basico
 Maven
 STS
 
-```
-Give examples
-```
-
 ### Installing
 
-
 ## Running the tests
-
 
 ### Break down into end to end tests
 
@@ -27,15 +21,9 @@ Give examples
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 
-## Contributing
-
-Leer [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
-
-## Versioning
-
 ## Authors
 
-* **SamuelPola** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **SamuelPola** - [PurpleBooth](https://github.com/sampolanco)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -44,7 +32,3 @@ See also the list of [contributors](https://github.com/your/project/contributors
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
