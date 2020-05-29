@@ -11,6 +11,9 @@ STS
 
 ### Installing
 
+run the following command to start database
+docker run --name container-postgres-red --network red-proyecto  -e POSTGRES_PASSWORD=podocker -d -p 5432:5432 postgres:12-alpine
+
 ## Running the tests
 
 ### Break down into end to end tests
