@@ -3,6 +3,7 @@ package mx.sam.apiEjemplo.controller.api.usuario;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,8 @@ import mx.sam.apiEjemplo.dto.UsuarioDTO;
 import mx.sam.apiEjemplo.service.IUsuarioService;
 
 @RestController
-@RequestMapping(path="/Usuario")
+@CrossOrigin(origins= {"http://localhost:4200"})
+@RequestMapping(path="/usuario")
 public class UsuarioController {
 	@Autowired
 	IUsuarioService service;
